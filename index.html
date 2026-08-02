@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Custom Sculptural Features LLC</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="navbar">
+        <div class="logo">APEX SCULPTURAL</div>
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#capabilities">Capabilities</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Crafting Monumental Sculptural Masterpieces for World-Class Resorts.</h1>
+            <p>Specializing in custom GFRC casting, silicon molding, polyurea hardcoats, and breathtaking resort centerpieces.</p>
+            <a href="#contact" class="btn-primary">Request a Custom Quote</a>
+        </div>
+    </section>
+
+    <!-- CAPABILITIES SECTION -->
+    <section id="capabilities" class="section-padding">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">Blending architectural precision with unparalleled artistic vision.</p>
+        
+        <div class="capabilities-grid">
+            <div class="card">
+                <h3>Large-Scale Foam Carving</h3>
+                <p>Engineered EPS and high-density foam sculpting encased in industrial-strength polyurea hardcoats for unmatched durability.</p>
+            </div>
+            <div class="card">
+                <h3>Precision Molding</h3>
+                <p>Advanced silicon and fiberglass mold-making to capture micro-details for infinite reproduction of custom assets.</p>
+            </div>
+            <div class="card">
+                <h3>GFRC Casting</h3>
+                <p>Glass Fiber Reinforced Concrete and polymer concrete casting for structural, lightweight, and weather-resistant hardscaping.</p>
+            </div>
+            <div class="card">
+                <h3>Cold-Cast Metals</h3>
+                <p>Exquisite cold-cast bronze, copper, and specialized resin artworks providing genuine metallic finishes for luxury environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="section-padding">
+        <h2 class="section-title">Featured Masterpieces</h2>
+        <p class="section-subtitle">A curated selection of our high-end installations and studio processes.</p>
+
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All Works</button>
+            <button class="filter-btn" data-filter="statues">Statues & Monuments</button>
+            <button class="filter-btn" data-filter="casting">Casting & Molds</button>
+            <button class="filter-btn" data-filter="resort">Resort Hardscaping</button>
+            <button class="filter-btn" data-filter="video">Videos</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="statues">
+                <img src="https://via.placeholder.com/600x600/2d3748/d4af37?text=Monumental+Statue" alt="Statue Project">
+                <div class="portfolio-overlay"><span>View Project</span></div>
+            </div>
+            <div class="portfolio-item" data-category="resort">
+                <img src="https://via.placeholder.com/600x600/2d3748/d4af37?text=Resort+Water+Feature" alt="Resort Hardscaping">
+                <div class="portfolio-overlay"><span>View Project</span></div>
+            </div>
+            <div class="portfolio-item" data-category="casting">
+                <img src="https://via.placeholder.com/600x600/2d3748/d4af37?text=Silicon+Mold+Process" alt="Molding Process">
+                <div class="portfolio-overlay"><span>View Project</span></div>
+            </div>
+            <div class="portfolio-item" data-category="statues">
+                <img src="https://via.placeholder.com/600x600/2d3748/d4af37?text=Bronze+Resin+Art" alt="Cold Cast Bronze">
+                <div class="portfolio-overlay"><span>View Project</span></div>
+            </div>
+            <div class="portfolio-item" data-category="video">
+                <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted loop></video>
+                <div class="portfolio-overlay"><span>Play Video</span></div>
+            </div>
+            <div class="portfolio-item" data-category="resort">
+                <img src="https://via.placeholder.com/600x600/2d3748/d4af37?text=Luxury+Pool+Rocks" alt="Pool Hardscape">
+                <div class="portfolio-overlay"><span>View Project</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIGHTBOX CONTAINER -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <div class="lightbox-content" id="lightbox-content"></div>
+    </div>
+
+    <!-- PROCESS SECTION -->
+    <section id="process" class="section-padding">
+        <h2 class="section-title">Transparent Project Workflow</h2>
+        <p class="section-subtitle">Our streamlined 4-stage process ensures elite quality from conception to anchoring.</p>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>Stage 1: 40% Mobilization</h4>
+                    <p>Contract execution, conceptual sign-off, and procurement of specialized resins, silicon, and structural armatures.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>Stage 2: 30% Sculpt & Casting</h4>
+                    <p>Primary carving, hardcoating, and creation of master molds. The physical form is brought to life in the studio.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>Stage 3: 20% Inspection</h4>
+                    <p>Pre-dispatch quality control, patina/paint finishing, and client review to ensure the piece meets our elite standards.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>Stage 4: 10% Installation</h4>
+                    <p>Secure transport, on-site structural anchoring, and final environmental blending at your resort or commercial space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding">
+        <h2 class="section-title">Commission a Masterpiece</h2>
+        <p class="section-subtitle">Reach out to our principal designers to discuss your luxury architectural vision.</p>
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Full Name or Point of Contact" required>
+                <input type="email" name="email" placeholder="Corporate Email Address" required>
+                <input type="text" name="company" placeholder="Resort / Company Name" required>
+                
+                <select name="budget" required>
+                    <option value="" disabled selected>Select Budget Range</option>
+                    <option value="under_10k">Under $10,000 USD (Approx. PHP 550,000)</option>
+                    <option value="10k_50k">$10,000 - $50,000 USD</option>
+                    <option value="50k_plus">$50,000+ USD</option>
+                </select>
+
+                <textarea name="details" placeholder="Briefly describe your project, scale, and material preferences..." required></textarea>
+                <button type="submit" class="btn-primary">Submit Inquiry</button>
+            </form>
+
+            <div class="social-bar">
+                <a href="mailto:contact@apexsculptural.com" class="social-btn">
+                    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    contact@apexsculptural.com
+                </a>
+                <a href="#" class="social-btn" target="_blank">
+                    <svg viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+                    Apex Sculptural Facebook
+                </a>
+                <a href="#" class="social-btn" target="_blank">
+                    <svg viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.892-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    Message on Telegram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
